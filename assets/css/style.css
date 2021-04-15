@@ -203,12 +203,19 @@
     font-size: 15px;
 }
 
-.far.fa-play-circle.mr-3{
+.far.fa-play-circle{
     font-size: 25px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.far.fa-play-circle.mr-3:hover{
+.far.fa-play-circle:hover{
     font-size: 28px;
+}
+
+.fas.fa-step-backward{
+    margin-right: 50px;
 }
 
 #footer_bar > div > div:nth-child(2) > div:nth-child(2){
