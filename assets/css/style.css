@@ -37,8 +37,21 @@
     border-radius: 50%;
 }
 
+.crea_playlist{
+    line-height: 30px;
+}
+
 .sidebar_maggiore_xs{
     display: none;
+}
+
+.sidebar_hover:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.new_playlist:hover .nuova_playlist{
+    background-color: white;
 }
 
 /* media query per schermi >= 576px ossia da small in su */
