@@ -1,18 +1,19 @@
 /* side bar */
 #side_bar{
-    width: 15%;
+    width: 20%;
     height: calc(100% - 70px);
     background-color: black;
     color: #707070;
     font-size: 13px;
+    overflow: auto;
 }
 
 .logo_spotify > img{
-    max-width: 80%;
+    max-width: 70%;
 }
 
 .comandi_sidebar > img{
-    max-width: 15%
+    max-width: 10%
 }
 
 .nuova_playlist{
@@ -26,7 +27,7 @@
 }
 
 .download_app > img{
-    max-width: 10%;
+    max-width: 7%;
 }
 
 .profilo > div{
@@ -44,7 +45,7 @@
 
 /* effettua l'upgrade */
 .upgrade{
-    width: 85%;
+    width: 80%;
     height: 70px;
     background-color: rgba(0, 0, 0, 0.7);
     right: 0;
@@ -65,7 +66,7 @@
 
 /* main content */
 #main_content{
-    width: 85%;
+    width: 80%;
     height: 90%;
     right: 0;
     background-color: pink;
