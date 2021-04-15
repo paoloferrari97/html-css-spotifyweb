@@ -41,6 +41,7 @@
     display: none;
 }
 
+/* media query per schermi >= 576px ossia da small in su */
 @media all and (min-width: 576px){
     #side_bar{
         width: 20%;
@@ -78,6 +79,10 @@
 
     .logo_spotify > img{
         max-width: 70%;
+    }
+
+    .home_btn{
+        border-left: 3px solid #9fea2b;
     }
 }
 
