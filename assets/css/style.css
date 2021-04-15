@@ -147,3 +147,21 @@
     height: 70px;
     background-color: #282828;
 }
+
+#footer_bar > .row{
+    height: 100%;
+}
+
+#footer_bar > .row > div{
+    height: 100%;
+    color: #707070;
+}
+
+#footer_bar > .row > div > img{
+    width: 50px;
+}
+
+.brano_in_corso > div > span{
+    line-height: 13px;
+    font-size: 13px;
+}
