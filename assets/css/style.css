@@ -103,7 +103,7 @@
 .upgrade{
     width: calc(100% - 50px);
     height: 70px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     right: 0;
     z-index: 1;
 }
@@ -131,7 +131,7 @@
     width: calc(100% - 50px);
     height: calc(100% - 70px);
     right: 0;
-    background-color: pink;
+    background-color: #141922;
     overflow: auto;
 }
 
