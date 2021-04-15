@@ -50,14 +50,10 @@
     cursor: pointer;
 }
 
-.new_playlist:hover .nuova_playlist{
-    background-color: white;
-}
-
 /* media query per schermi >= 576px ossia da small in su */
 @media all and (min-width: 576px){
     #side_bar{
-        width: 250px;
+        width: 200px;
     }
 
     .sidebar_maggiore_xs{
@@ -80,6 +76,10 @@
 
     .nuova_playlist > i{
         visibility: visible;
+    }
+
+    .new_playlist:hover .nuova_playlist{
+        background-color: white;
     }
 
     .download_app > img{
@@ -110,7 +110,7 @@
 
 @media all and (min-width: 576px){
     .upgrade{
-        width: calc(100% - 250px);
+        width: calc(100% - 200px);
     }
 }
 
@@ -137,7 +137,7 @@
 
 @media all and (min-width: 576px){
     #main_content{
-        width: calc(100% - 250px);
+        width: calc(100% - 200px);
     }
 }
 
