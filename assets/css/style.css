@@ -1,7 +1,7 @@
 /* side bar */
 #side_bar{
     width: 15%;
-    height: 90%;
+    height: calc(100% - 70px);
     background-color: black;
     color: #707070;
     font-size: 13px;
@@ -19,6 +19,26 @@
     width: 30px;
     height: 30px;
     background-color: #707070;
+}
+
+.download_app{
+    border-bottom: 1px solid #707070;
+}
+
+.download_app > img{
+    max-width: 10%;
+}
+
+.profilo > div{
+    background-color: grey;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.profilo > div > img{
+    max-height: 100%;    
+    max-width: 100%;
 }
 
 /* effettua l'upgrade */
