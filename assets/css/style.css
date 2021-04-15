@@ -8,7 +8,7 @@
 /* effettua l'upgrade */
 .upgrade{
     width: 85%;
-    height: 10%;
+    height: 70px;
     background-color: rgba(0, 0, 0, 0.7);
     right: 0;
     z-index: 1;
@@ -38,6 +38,6 @@
 /* footer bar */
 #footer_bar{
     width: 100%;
-    height: 10%;
+    height: 70px;
     background-color: red;
 }
