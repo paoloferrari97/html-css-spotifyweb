@@ -2,7 +2,23 @@
 #side_bar{
     width: 15%;
     height: 90%;
-    background-color: blue;
+    background-color: black;
+    color: #707070;
+    font-size: 13px;
+}
+
+.logo_spotify > img{
+    max-width: 80%;
+}
+
+.comandi_sidebar > img{
+    max-width: 15%
+}
+
+.nuova_playlist{
+    width: 30px;
+    height: 30px;
+    background-color: #707070;
 }
 
 /* effettua l'upgrade */
