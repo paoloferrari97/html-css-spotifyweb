@@ -173,6 +173,17 @@
     line-height: 20px;
 }
 
+.brano_nome:hover{
+    color: white;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+.cuore_c:hover, .cartella_c:hover{
+    color: white;
+    cursor: pointer;
+}
+
 @media all and (min-width: 768px){
     .cuore_cartella > span{
         display: inline-block;
