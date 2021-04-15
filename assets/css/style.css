@@ -157,6 +157,7 @@
     color: #707070;
 }
 
+/* prima colonna */
 #footer_bar > .row > div > img{
     width: 15%;
 }
@@ -183,4 +184,25 @@
     .cuore_cartella > span:nth-child(2){
         padding-left: 5px;
     }
+}
+
+/* seconda colonna */
+
+/* terza colonna */
+.terza_colonna_footer{
+    font-size: 13px;
+}
+
+.terza_colonna_footer > span{
+    width: 100px;
+    height: 5px;
+    background-color: #707070;
+    border-radius: 20px;
+}
+
+.terza_colonna_footer > span > span{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
 }
