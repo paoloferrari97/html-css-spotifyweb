@@ -193,16 +193,35 @@
     font-size: 13px;
 }
 
-.terza_colonna_footer > span{
+.terza_colonna_footer > div{
     width: 100px;
-    height: 5px;
+    height: 4px;
     background-color: #707070;
     border-radius: 20px;
 }
 
-.terza_colonna_footer > span > span{
+.terza_colonna_footer > div > span{
     width: 25%;
     height: 100%;
     background-color: white;
     border-radius: 20px;
+}
+
+.terza_colonna_footer > div > div{
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    left: 25%;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    display: none;
+}
+
+.volume_s:hover .pallino_s{
+    display: block;
+}
+
+.volume_s:hover .volume_att_s{
+    background-color: #9fea2b;
 }
