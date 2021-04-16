@@ -320,6 +320,10 @@ body{
     font-size: 13px;
 }
 
+.terza_colonna_footer > i:first-child{
+    font-size: 15px;
+}
+
 .terza_colonna_footer > div{
     width: 100px;
     height: 4px;
