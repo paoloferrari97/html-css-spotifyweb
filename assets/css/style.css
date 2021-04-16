@@ -1,3 +1,7 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
 /* side bar */
 #side_bar{
     width: 50px;
@@ -53,6 +57,10 @@
     overflow: auto;
 }
 
+.home_btn{
+    padding-left: 15px;
+}
+
 /* media query per schermi >= 576px ossia da small in su */
 @media all and (min-width: 576px){
     #side_bar{
@@ -90,15 +98,16 @@
     }
 
     .comandi_sidebar > img{
-        max-width: 10%
+        max-width: 13%
     }
 
     .logo_spotify > img{
-        max-width: 70%;
+        max-width: 80%;
     }
 
     .home_btn{
         border-left: 3px solid #9fea2b;
+        padding-left: 13px;
     }
 }
 
