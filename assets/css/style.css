@@ -194,9 +194,17 @@ body{
 .recently_played > .row > div > span.mt-2{
     line-height: 20px;
 }
-.recently_played > .row > div > span.mt-1{
+.recently_played > .row > div > span.mt-1, .recently_played > div.row > div.col-12 > span{
     color: #707070;
     font-size: 12px;
+}
+
+.artisti > .row > div > div.position-relative > img{
+    border-radius: 50%;
+}
+
+.artisti > .row > div > div.position-relative > div.overlay{
+    border-radius: 50%;
 }
 
 /* footer bar */
