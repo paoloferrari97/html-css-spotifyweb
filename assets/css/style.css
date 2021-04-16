@@ -282,7 +282,13 @@ body{
 }
 
 .fas.fa-step-backward{
-    margin-right: 50px;
+    margin-right: 25px;
+}
+
+@media all and (min-width: 576px){
+    .fas.fa-step-backward{
+        margin-right: 50px;
+    }
 }
 
 #footer_bar > div > div:nth-child(2) > div:nth-child(2){
