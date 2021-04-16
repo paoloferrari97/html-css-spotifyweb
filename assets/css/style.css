@@ -61,56 +61,6 @@ body{
     padding-left: 15px;
 }
 
-/* media query per schermi >= 576px ossia da small in su */
-@media all and (min-width: 576px){
-    #side_bar{
-        width: 200px;
-    }
-
-    .sidebar_maggiore_xs{
-        display: inline-block;
-    }
-
-    .sidebar_minore_xs{
-        display: none;
-    }
-
-    .download_app{
-        border-bottom: 1px solid #707070;
-    }
-
-    .nuova_playlist{
-        width: 30px;
-        height: 30px;
-        background-color: #707070;
-    }
-
-    .nuova_playlist > i{
-        visibility: visible;
-    }
-
-    .new_playlist:hover .nuova_playlist{
-        background-color: white;
-    }
-
-    .download_app > img{
-        max-width: 7%;
-    }
-
-    .comandi_sidebar > img{
-        max-width: 13%
-    }
-
-    .logo_spotify > img{
-        max-width: 80%;
-    }
-
-    .home_btn{
-        border-left: 3px solid #9fea2b;
-        padding-left: 13px;
-    }
-}
-
 /* effettua l'upgrade */
 .upgrade{
     width: calc(100% - 50px);
@@ -118,12 +68,6 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     right: 0;
     z-index: 1;
-}
-
-@media all and (min-width: 576px){
-    .upgrade{
-        width: calc(100% - 200px);
-    }
 }
 
 .upgrade > button{
@@ -145,12 +89,6 @@ body{
     right: 0;
     background-color: #141922;
     overflow: auto;
-}
-
-@media all and (min-width: 576px){
-    #main_content{
-        width: calc(100% - 200px);
-    }
 }
 
 .barra_in_alto{
@@ -236,7 +174,6 @@ body{
 
 .cuore_cartella > span{
     display: block;
-    /* padding-left: 30px; */
     padding-left: 20%;
     line-height: 20px;
 }
@@ -283,12 +220,6 @@ body{
 
 .fas.fa-step-backward{
     margin-right: 25px;
-}
-
-@media all and (min-width: 576px){
-    .fas.fa-step-backward{
-        margin-right: 50px;
-    }
 }
 
 #footer_bar > div > div:nth-child(2) > div:nth-child(2){
@@ -390,4 +321,70 @@ body{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: grey; 
+}
+
+/* media query per schermi >= 576px ossia da small in su */
+@media all and (min-width: 576px){
+    /* side bar */
+    #side_bar{
+        width: 200px;
+    }
+
+    .sidebar_maggiore_xs{
+        display: inline-block;
+    }
+
+    .sidebar_minore_xs{
+        display: none;
+    }
+
+    .download_app{
+        border-bottom: 1px solid #707070;
+    }
+
+    .nuova_playlist{
+        width: 30px;
+        height: 30px;
+        background-color: #707070;
+    }
+
+    .nuova_playlist > i{
+        visibility: visible;
+    }
+
+    .new_playlist:hover .nuova_playlist{
+        background-color: white;
+    }
+
+    .download_app > img{
+        max-width: 7%;
+    }
+
+    .comandi_sidebar > img{
+        max-width: 13%
+    }
+
+    .logo_spotify > img{
+        max-width: 80%;
+    }
+
+    .home_btn{
+        border-left: 3px solid #9fea2b;
+        padding-left: 13px;
+    }
+
+    /* effettua l'upgrade */
+    .upgrade{
+        width: calc(100% - 200px);
+    }
+
+    /* main content */
+    #main_content{
+        width: calc(100% - 200px);
+    }
+
+    /* footer bar */
+    .fas.fa-step-backward{
+        margin-right: 50px;
+    }
 }
