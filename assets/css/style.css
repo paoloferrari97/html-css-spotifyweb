@@ -160,6 +160,11 @@ body{
     font-size: 12px;
 }
 
+.barra_in_alto > span:hover{
+    color: white;
+    cursor: pointer;
+}
+
 .barra_in_alto > span > span{
     width: 50%;
     height: 3px;
