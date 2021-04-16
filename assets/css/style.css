@@ -172,8 +172,23 @@ body{
     background-color: #9fea2b;
 }
 
-.recently_played > .row > div > img{
+.recently_played > .row > div > div > img{
     max-width: 100%;
+}
+.recently_played > .row > div > div > div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+.recently_played > .row > div > div > div > i{
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.recently_played > .row > div > div:hover .overlay{
+    display: block;
 }
 .recently_played > .row > div > span.mt-2{
     line-height: 20px;
@@ -246,14 +261,14 @@ body{
     font-size: 15px;
 }
 
-.far.fa-play-circle{
+.far.fa-play-circle.footer_play_circle{
     font-size: 25px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
-.far.fa-play-circle:hover{
+.far.fa-play-circle.footer_play_circle:hover{
     font-size: 28px;
 }
 
