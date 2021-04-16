@@ -159,12 +159,10 @@ body{
     color: #707070;
     font-size: 12px;
 }
-
 .barra_in_alto > span:hover{
     color: white;
     cursor: pointer;
 }
-
 .barra_in_alto > span > span{
     width: 50%;
     height: 3px;
@@ -172,6 +170,17 @@ body{
     left: 50%;
     transform: translate(-50%, +100%);
     background-color: #9fea2b;
+}
+
+.recently_played > .row > div > img{
+    max-width: 100%;
+}
+.recently_played > .row > div > span.mt-2{
+    line-height: 20px;
+}
+.recently_played > .row > div > span.mt-1{
+    color: #707070;
+    font-size: 12px;
 }
 
 /* footer bar */
