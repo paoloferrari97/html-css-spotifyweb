@@ -192,7 +192,7 @@ body{
     cursor: pointer;
 }
 .recently_played > .row > div > span.mt-2{
-    line-height: 20px;
+    line-height: 15px;
 }
 .recently_played > .row > div > span.mt-1, .recently_played > div.row > div.col-12 > span{
     color: #707070;
