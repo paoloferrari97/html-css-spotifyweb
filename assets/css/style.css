@@ -189,6 +189,7 @@ body{
 }
 .recently_played > .row > div > div:hover .overlay{
     display: block;
+    cursor: pointer;
 }
 .recently_played > .row > div > span.mt-2{
     line-height: 20px;
