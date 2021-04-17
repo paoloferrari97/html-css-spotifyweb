@@ -204,26 +204,25 @@ body{
     border-radius: 20px;
 }
 
-.tempo_att_s{
-    border-radius: 20px;
+.tempo_att_s, .volume_att_s{
     background-color: white;
+    border-radius: 20px;
 }
 
-.pallino_t_s{
+.pallino_t_s, .pallino_s{
     width: 12px;
     height: 12px;
-    background-color: white;
     left: 25%;
     top: 50%;
     transform: translateY(-50%);
     display: none;
 }
 
-.tempo_s:hover .pallino_t_s{
+.tempo_s:hover .pallino_t_s, .volume_s:hover .pallino_s{
     display: block;
 }
 
-.tempo_s:hover .tempo_att_s{
+.tempo_s:hover .tempo_att_s, .volume_s:hover .volume_att_s{
     background-color: #9fea2b;
 }
 
@@ -236,33 +235,11 @@ body{
     font-size: 15px;
 }
 
-.terza_colonna_footer > div{
+.volume_s{
     width: 100px;
     height: 4px;
     background-color: #707070;
     border-radius: 20px;
-}
-
-.terza_colonna_footer > div > span{
-    background-color: white;
-    border-radius: 20px;
-}
-
-.terza_colonna_footer > div > div{
-    width: 12px;
-    height: 12px;
-    left: 25%;
-    top: 50%;
-    transform: translateY(-50%);
-    display: none;
-}
-
-.volume_s:hover .pallino_s{
-    display: block;
-}
-
-.volume_s:hover .volume_att_s{
-    background-color: #9fea2b;
 }
 
 /* SCROLLBAR */
