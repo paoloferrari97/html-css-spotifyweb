@@ -381,6 +381,13 @@ i.far.fa-heart.cuore_c:active{
 .icona_cerchio:hover{
     animation: ruotare 1s linear infinite;
 }
+.footer_img{
+    transition: all 1s;
+}
+.footer_img:hover{
+    animation: ruotare 1s linear;
+    filter: invert(2);
+}
 @keyframes ruotare {
     100% {
         transform: rotate(1turn);
