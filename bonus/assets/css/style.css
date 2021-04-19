@@ -338,3 +338,16 @@ body{
     width: 1140px;
     height: 274px;
 }
+
+
+.upgrade{
+    display: flex;
+}
+@media all and (max-height: 576px){
+    .upgrade{
+        display: none;
+    }
+    .barra_in_alto{
+        margin-top: 0;
+    }
+}
