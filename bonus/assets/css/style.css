@@ -377,3 +377,12 @@ i.far.fa-heart.cuore_c:active{
 .barra_in_alto > span:hover .barretta_verde{
     display: block;
 }
+
+.icona_cerchio:hover{
+    animation: ruotare 1s linear infinite;
+}
+@keyframes ruotare {
+    100% {
+        transform: rotate(1turn);
+    }
+}
