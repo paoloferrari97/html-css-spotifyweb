@@ -351,3 +351,12 @@ body{
         margin-top: 0;
     }
 }
+
+.upgrade > button{
+    transition: all 5s;
+}
+
+.upgrade > button:hover{
+    background-color: yellow;
+    color: orangered;
+}
