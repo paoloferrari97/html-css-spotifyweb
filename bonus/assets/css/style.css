@@ -353,10 +353,27 @@ body{
 }
 
 .upgrade > button{
-    transition: all 5s;
+    transition: all 2s;
 }
 
 .upgrade > button:hover{
-    background-color: yellow;
-    color: orangered;
+    background-color: green;
+    color: black;
+}
+
+i.far.fa-heart.cuore_c{
+    transition: all 1s;
+}
+
+i.far.fa-heart.cuore_c:active{
+    color: red;
+    font-size: 40px;
+}
+
+.barra_in_alto > span > span{
+    display: none;
+}
+
+.barra_in_alto > span:hover .barretta_verde{
+    display: block;
 }
