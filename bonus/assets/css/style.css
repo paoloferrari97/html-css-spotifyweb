@@ -80,7 +80,8 @@ body{
     height: calc(100% - 70px);
     right: 0;
     background-color: #141922;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .barra_in_alto{
@@ -320,4 +321,20 @@ body{
     .fas.fa-step-backward{
         margin-right: 50px;
     }
+}
+
+.colonne_bonus{
+    width: 190px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row_bonus{
+    width: 1140px;
+    height: 302px;
+}
+
+.row_bonus_due{
+    width: 1140px;
+    height: 274px;
 }
