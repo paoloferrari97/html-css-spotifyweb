@@ -193,7 +193,7 @@ body{
 }
 
 .fas.fa-step-backward{
-    margin-right: 25px;
+    margin-right: 30px;
 }
 
 #footer_bar > div > div:nth-child(2) > div:nth-child(2){
@@ -242,6 +242,10 @@ body{
     height: 4px;
     background-color: #707070;
     border-radius: 20px;
+}
+
+.footer_icone{
+    display: none;
 }
 
 /* SCROLLBAR */
@@ -321,6 +325,10 @@ body{
     /* footer bar */
     .fas.fa-step-backward{
         margin-right: 50px;
+    }
+
+    .footer_icone{
+        display: block;
     }
 }
 
