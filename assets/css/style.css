@@ -136,7 +136,8 @@ body{
 
 /* prima colonna */
 #footer_bar > .row > div > img{
-    width: 15%;
+    max-width: 100%;
+    max-height: 80%;
 }
 
 .brano_in_corso > div > span{
